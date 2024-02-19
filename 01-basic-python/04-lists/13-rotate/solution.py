@@ -1,6 +1,4 @@
 def rotate(xs, n):
-    for _ in range(n):
+    for i in range(n):
         x = xs.pop(0)
         xs.append(x)
-
-    return xs

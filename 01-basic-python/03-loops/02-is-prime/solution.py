@@ -4,3 +4,5 @@ def is_prime(n):
             return False
 
     return n > 1
+
+print(is_prime(99))

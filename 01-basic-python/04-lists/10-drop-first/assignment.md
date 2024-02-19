@@ -9,3 +9,4 @@ Similarly, you can write `xs[:b]` instead of `xs[0:b]`.
 `xs[:]` is also valid: it takes a slice of the entire list, meaning it's making a copy of `xs`.
 
 Write a function `drop_first(xs)` that returns a new list equal to `xs` from whom the first element has been excluded.
+#pytest tests.py

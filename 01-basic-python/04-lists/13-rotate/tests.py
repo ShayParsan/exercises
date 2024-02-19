@@ -27,8 +27,8 @@ def test_function(xs, n):
     student_function = getattr(student, function_name)
 
     actual_xs = copy(xs)
-    a = student_function(actual_xs, n)
+    student_function(actual_xs, n)
     expected_xs = copy(xs)
-    b = solution_function(expected_xs, n)
+    solution_function(expected_xs, n)
 
-    assert a == b, f"Wrong result for {(xs, n)}, expected {a}, received {b}"
+    assert expected_xs == actual_xs, f"Wrong result for {(xs, n)}, expected {expected_xs}, received {actual_xs}"
