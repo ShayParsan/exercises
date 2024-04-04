@@ -137,6 +137,7 @@ For now, try to contain your excitement.
 ## Task
 
 Define a class `MusicalNote`.
+
 It must have two readonly properties: `name` and `pitch`.
 
 ```text
@@ -153,4 +154,5 @@ AttributeError: can't set attribute
 
 >>> note.pitch = 450
 AttributeError: can't set attribute
+
 ```
