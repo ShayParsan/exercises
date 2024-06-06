@@ -1,0 +1,5 @@
+my_list = ("apple", "banana", "cherry")
+my_iterator = iter(my_list)
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
